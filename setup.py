@@ -10,5 +10,8 @@ from setuptools import setup
 
 setup(name='gym_crypto',
       version='0.0.1',
+      packages=['gym_crypto'],
+      description='Trading Environment for Crytpocurrencies',
+      url='https://github.com/badebondt/gym-crypto.git',
       install_requires=['gym']#And any other dependencies required
 )
